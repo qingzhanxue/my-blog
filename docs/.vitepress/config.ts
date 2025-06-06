@@ -18,6 +18,24 @@ export default defineConfig({
                         { text: 'Hello World', link: '/posts/hello' },
                         // 你可以继续添加文章
                     ]
+                },
+                {
+                    text: '前端',
+                    items: [
+                        { text: 'Vue 性能优化', link: '/posts/frontend/vue-optimization' }
+                    ]
+                },
+                {
+                    text: '后端',
+                    items: [
+                        { text: 'Spring Boot 多线程实战', link: '/posts/backend/springboot-threads' }
+                    ]
+                },
+                {
+                    text: '其它',
+                    items: [
+                        { text: 'AI 一些想法', link: '/posts/other/ai-thoughts' }
+                    ]
                 }
             ]
         }
